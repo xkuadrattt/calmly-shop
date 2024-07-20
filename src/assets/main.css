@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body * {
+  font-family: "Lato";
+  transition: 250ms;
+}
+
+body {
+  @apply bg-slate-100;
+}
+
+.carousel {
+  height: 15rem !important;
+  border: 1px solid rgb(241, 34, 207);
+}
+
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
